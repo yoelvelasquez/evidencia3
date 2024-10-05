@@ -26,12 +26,6 @@ router.post("/", (req, res) => {
     console.log("Datos recibidos:", req.body); // Depuración
 
     try {
-        // Validar que se reciban todos los campos necesarios
-        const { nombre, apellido, email, idioma, nivel } = req.body;
-        if (!nombre || !apellido || !email || !idioma || !nivel) {
-            return res.status(400).send({ error: "Todos los campos son obligatorios." });
-        }
-
         const nuevoUsuarioAlumno = {
             id: nanoid(idLength),
             ...req.body,

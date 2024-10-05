@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 10806;
 const FileSync = require("lowdb/adapters/FileSync");
 
 // Creamos el archivo db.json
-const adapter = new FileSync("report.json");
+const adapter = new FileSync("soport.json");
 const db = low(adapter);
 
 // Inicializamos la BD

@@ -1,3 +1,13 @@
 {
-  "usuariodocente": []
+  "usuariodocente": [
+    {
+      "id": "9NItuPXS",
+      "nombre": "Juan Perez",
+      "rol": "docente",
+      "email": "juan.perez@example.com",
+      "telefono": "+123456789",
+      "fechaRegistro": "2023-01-15",
+      "cursoAsignado": "1,2"
+    }
+  ]
 }

@@ -1,3 +1,12 @@
 {
-  "usuarioadministrador": []
+  "usuarioadministrador": [
+    {
+      "id": "45ddeNW-",
+      "nombre": "Admin User",
+      "rol": "administrador",
+      "email": "admin@example.com",
+      "telefono": "+1122334455",
+      "fechaRegistro": "2023-03-10"
+    }
+  ]
 }

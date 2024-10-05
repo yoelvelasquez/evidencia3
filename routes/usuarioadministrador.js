@@ -26,10 +26,6 @@ router.post("/", (req, res) => {
     console.log("Datos recibidos:", req.body); // Agregar esta línea para depuración
 
     try {
-        if (!req.body.nombre) { // Asegúrate de que el nombre esté presente
-            return res.status(400).send({ error: "El campo 'nombre' es obligatorio." });
-        }
-
         const usuarioadministrador = {
             id: nanoid(idLength),
             ...req.body,
