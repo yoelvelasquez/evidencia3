@@ -1,0 +1,24 @@
+{
+  "cursos": [
+    {
+      "id": "zNpGWwj1",
+      "curso": "Franc�s Intermedio",
+      "descripcion": "Curso de franc�s para nivel intermedio.",
+      "docenteId": 1,
+      "lecciones": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "sGkkhXFr",
+      "curso": "Franc�s Intermedio",
+      "descripcion": "Curso de franc�s para nivel intermedio.",
+      "docenteId": 1,
+      "lecciones": "6, 7, 8, 9, 10"
+    }
+  ]
+}

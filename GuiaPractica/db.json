@@ -1,0 +1,167 @@
+{
+  "articulos": [
+    {
+      "id": "abc12345",
+      "nombre": "yoel",
+      "edad": "23"
+    },
+    {
+      "id": "abc12345",
+      "nombre": "yoel",
+      "edad": "23",
+      "correo": "123@gmail"
+    },
+    {
+      "id": "wcwJgJNE",
+      "nombre": "yoeljv",
+      "edad": "45"
+    },
+    {
+      "id": 3,
+      "nombre": "Admin User",
+      "rol": "administrador",
+      "email": "admin@example.com",
+      "telefono": "+1122334455",
+      "fechaRegistro": "2023-03-10"
+    },
+    {
+      "id": 3,
+      "nombre": "Admin User",
+      "rol": "administrador",
+      "email": "admin@example.com",
+      "telefono": "+1122334455",
+      "fechaRegistro": "2023-03-10"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "919NkMr2",
+      "nombre": "Curso de Node.js",
+      "descripcion": "Un curso avanzado sobre Node.js"
+    },
+    {
+      "id": "1",
+      "curso": "Ingl�s B�sico",
+      "descripcion": "Curso introductorio de ingl�s.",
+      "docenteId": "1",
+      "lecciones": "1, 2, 3, 4, 5"
+    },
+    {
+      "id": "1",
+      "curso": "Ingles Basico",
+      "descripcion": "Curso introductorio de ingles.",
+      "docenteId": "1",
+      "lecciones": "1, 2, 3, 4, 5"
+    }
+  ],
+  "lecciones": [
+    {
+      "id": "1",
+      "titulo": "Saludos y Presentaciones",
+      "cursoId": "1",
+      "contenido": "Lecci�n sobre c�mo saludar y presentarse en ingl�s.",
+      "duracion": "30 minutos"
+    }
+  ],
+  "notificaciones": [
+    {
+      "id": 1,
+      "usuarioId": 2,
+      "mensaje": "Nueva lecci�n disponible en el curso de Ingl�s B�sico.",
+      "fecha": "2023-10-02",
+      "leido": false
+    }
+  ],
+  "progreso": [],
+  "soporte": [
+    {
+      "id": 1,
+      "usuarioId": 2,
+      "mensaje": "Tengo problemas para acceder a la lecci�n 3.",
+      "fecha": "2023-09-25",
+      "estado": "pendiente"
+    }
+  ],
+  "usuarioadministrador": [
+    {
+      "id": "Eb6CNQbL",
+      "nombre": "Admin User",
+      "rol": "administrador",
+      "email": "admin@example.com",
+      "telefono": "+1122334455",
+      "fechaRegistro": "2023-03-10"
+    },
+    {
+      "id": "mgTVe9Wg",
+      "nombre": "Admin User",
+      "rol": "administrador",
+      "email": "admin@example.com",
+      "telefono": "+1122334455",
+      "fechaRegistro": "2023-03-10"
+    },
+    {
+      "id": "yRKANNlx",
+      "nombre": "Admin xd",
+      "rol": "administrador",
+      "email": "xdxdxd@example.com",
+      "telefono": "+334455",
+      "fechaRegistro": "2023-03-10"
+    },
+    {
+      "id": "45qRBepU",
+      "nombre": "Admin xd",
+      "rol": "administrador",
+      "email": "xdxdxd@example.com",
+      "telefono": "+334455",
+      "fechaRegistro": "2023-03-10"
+    },
+    {
+      "id": "WiKsiZ7P",
+      "nombre": "John",
+      "apellido": "Doe",
+      "email": "john.doe@example.com",
+      "idioma": "es",
+      "nivel": "principiante"
+    },
+    {
+      "id": "yoIvPm1W",
+      "nombre": "John",
+      "apellido": "Doe",
+      "email": "john.doe@example.com",
+      "idioma": "es",
+      "nivel": "principiante"
+    }
+  ],
+  "usuarioalumno": [
+    {
+      "id": "3VX-sEtb",
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "email": "juan@example.com",
+      "idioma": "Espanol",
+      "nivel": "Intermedio"
+    },
+    {
+      "id": "V5w8hDeU",
+      "nombre": "david",
+      "apellido": "Perez",
+      "email": "david@example.com",
+      "idioma": "Espanol",
+      "nivel": "Intermedio"
+    }
+  ],
+  "usuariodocente": [
+    {
+      "id": "Rg2ALsr_",
+      "nombre": "Juan Perez",
+      "rol": "docente",
+      "email": "juan.perez@example.com",
+      "telefono": "+123456789",
+      "fechaRegistro": "2023-01-15",
+      "cursoAsignado": [
+        1,
+        2
+      ]
+    }
+  ]
+}
